@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Product Landing Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    
+    <script src="https://kit.fontawesome.com/80b7e46067.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- <header id="header">
+        <div class="nav-bar">
+            <div class="nav-items">
+                <div><img src="assets/logo.png" class="logo" alt=""></div>
+                <div class="nav-link">
+                    <a href="#about" class="">About</a>
+                    <a href="#video" class="">Video</a>
+                    <a href="#email" class="">Email</a>
+                </div>
+            </div>
+        </div>
+    </header> -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn-burg"></i>
+            <i class="fas fa-times" id="btn-cxl"></i>
+        </label>
+        <img src="assets/logo.png" alt="">
+        <ul>
+            <li><a href="#about-container">About</a></li>
+            <li><a href="#video-container">Video</a></li>
+            <li><a href="#email-container">Email</a></li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        <div class="about-container" id="about-container">
+            <div class="about-items-container">
+                <h1>Nike SB Shane O'Neill</h1>
+                <div class="rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="shoe-desc">
+                    <p>
+                        Shane O'Neill put the same attention to detail into every aspect of his signature shoe as he does in his almost-otherworldly skating. From the low-key perforated ventilation, to the double lacing option, to the no-break-in remastered sole—the Nike SB Shane gets all the details right.
+                    </p>
+                </div>
+                <div class="btn-order">
+                    <a class="btn" href="https://www.nike.com/ph/t/sb-shane-skate-shoes-mQcf7z?cp=30630508884_search_%7cph%7cBrand+-+DSA+-+EN_EN%7cDSA+-+All+Webpages%7cGOOGLE&ds_rl=1300698&ds_rl=1300698&gclid=Cj0KCQiAveebBhD_ARIsAFaAvrEfDDSoexFJd3kIkBWEGav0gW6YRJ9jtkO8wjBSdwMm-np45jj4gHUaAvWHEALw_wcB&gclsrc=aw.ds" target="_blank">Order Now</a>
+                </div>
+            </div>
+            <div class="shoe">
+                <img src="assets/nike-sb.png" alt="">
+            </div>
+        </div>
+        <div class="video-container" id="video-container">
+            <div class="video-box">
+                <div class="video-holder">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YW68edzbczM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-desc">
+                    <p>
+                        Shane O`Neill has always had that Extra Bit of...well, everything. That extra bit of flip-in, flip-out. That extra bit of way-too-perfect. That extra bit of how-did-he-do-that?
+                    </p>
+                    <p>
+                        Nike SB is proud to present The Extra Bit, featuring Shane O'Neill.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="email-container" class="email-container">
+            <div class="email-box">
+                <div>
+                    <h1>Email Us</h1>
+                </div>
+                <form action="#">
+                    <div class="user-details">
+                        <div class="input-box">
+                            <span class="details">First Name</span>
+                            <input type="text" placeholder="Enter you first name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Last Name</span>
+                            <input type="text" placeholder="Enter you last name" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Email</span>
+                            <input type="email" placeholder="example@email.com" required>
+                        </div>
+                        <div class="input-box">
+                            <span class="details">Phone Number</span>
+                            <input type="text" placeholder="Enter you phone number">
+                        </div>
+                        <div class="input-box text-field">
+                            <span class="details">Subject</span>
+                            <textarea class="subject-field"></textarea>
+                        </div>
+                        <div class="input-box text-field">
+                            <span class="details">Message</span>
+                            <textarea class="message-field"></textarea>
+                        </div>
+                        <div class="button-email">
+                            <input class="button btn" type="submit" value="Send email"></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
